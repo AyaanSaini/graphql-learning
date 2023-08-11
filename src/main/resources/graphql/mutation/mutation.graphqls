@@ -1,0 +1,4 @@
+type Mutation {
+    addBook(bookInput:BookInput):Book
+    addMultipleBooks(bookInputs:[BookInput]):[Book]
+}

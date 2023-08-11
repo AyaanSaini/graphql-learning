@@ -1,0 +1,18 @@
+type Book {
+
+    id:ID!
+    name:String!
+    description:String!
+    author:String
+    pages:Int
+    price:Float
+}
+
+input BookInput {
+    name:String!
+    description:String!
+    author:String
+    pages:Int
+    price:Float
+}
+
